@@ -1,0 +1,1 @@
+select count(*) from ac01 where aac008<>'JY' and ctjbs='T' and cxh is null or ctjbs='Z' and csfztx='T' and aac008<>'JY' and cxh is null;
